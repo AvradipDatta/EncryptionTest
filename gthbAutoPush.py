@@ -6,6 +6,7 @@ os.chdir(r'D:\Study\My Project\GitHubEncryption')  # replace with your project f
 # Git commands
 os.system('git init')
 os.system('git remote add origin https://github.com/AvradipDatta/EncryptionTest.git')
+os.system('git pull origin main --rebase')  # ✅ Pull remote changes first
 os.system('git add .')
 os.system('git commit -m "Add encrypted file"')
 os.system('git branch -M main')
